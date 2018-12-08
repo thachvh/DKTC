@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated Sep 26, 2018 6:04:22 AM by Hibernate Tools 5.3.1.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="src.dktc.javatech.jhibernate.entity" auto-import="true" default-access="property" default-cascade="none" default-lazy="true">
+    <class catalog="dktc" dynamic-insert="false" dynamic-update="false" mutable="true" name="src.dktc.javatech.jhibernate.entity.GiaoVien" optimistic-lock="version" polymorphism="implicit" select-before-update="false" table="giaovien">
+        <id name="idGiaoVien" type="java.lang.Integer">
+            <column name="idGiaoVien"/>
+            <generator class="identity"/>
+        </id>
+        <property generated="never" lazy="false" name="tenGiaoVien" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="tenGiaoVien"/>
+        </property>
+        <property generated="never" lazy="false" name="tuoi" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="tuoi"/>
+        </property>
+        <property generated="never" lazy="false" name="sdt" optimistic-lock="true" type="string" unique="false">
+            <column length="45" name="sdt"/>
+        </property>
+    </class>
+</hibernate-mapping>
