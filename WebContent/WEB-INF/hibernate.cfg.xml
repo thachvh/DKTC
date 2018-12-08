@@ -5,12 +5,12 @@
 
 <hibernate-configuration>
     <session-factory>
-	    <mapping resource="src/dktc/javatech/jhibernate/entity/GiaoVien.hbm.xml" />
-     	<mapping resource="src/dktc/javatech/jhibernate/entity/LopHoc.hbm.xml" />
-	    <mapping resource="src/dktc/javatech/jhibernate/entity/LopHocPhongHoc.hbm.xml" />
-	    <mapping resource="src/dktc/javatech/jhibernate/entity/Mon.hbm.xml" />
-	    <mapping resource="src/dktc/javatech/jhibernate/entity/PhongHoc.hbm.xml" />
-	    <mapping resource="src/dktc/javatech/jhibernate/entity/SinhVien.hbm.xml" />
-	    <mapping resource="src/dktc/javatech/jhibernate/entity/SinhVienLopHoc.hbm.xml" />
+	    <mapping resource="dktc/javatech/jhibernate/entity/GiaoVien.hbm.xml" />
+     	<mapping resource="dktc/javatech/jhibernate/entity/LopHoc.hbm.xml" />
+	    <mapping resource="dktc/javatech/jhibernate/entity/LopHocPhongHoc.hbm.xml" />
+	    <mapping resource="dktc/javatech/jhibernate/entity/Mon.hbm.xml" />
+	    <mapping resource="dktc/javatech/jhibernate/entity/PhongHoc.hbm.xml" />
+	    <mapping resource="dktc/javatech/jhibernate/entity/SinhVien.hbm.xml" />
+	    <mapping resource="dktc/javatech/jhibernate/entity/SinhVienLopHoc.hbm.xml" />
     </session-factory>   
 </hibernate-configuration>
